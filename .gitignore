@@ -1,11 +1,11 @@
 .idea/
 
-source/App/.env
 pull.sh
 push.sh
-merge.sh
-env.sh
-gitflow.sh
 mygmt.sh
 gmt.sh
+merge.sh
+gitflow.sh
+gitsh
+
 .DS_Store
