@@ -10,7 +10,7 @@ class AgentProxy implements AbstractSubject
 {
     protected $realSubject;
 
-    public function __construct(Singer $singer)
+    public function __construct(Singer $singer = null)
     {
         if (is_null($singer)) {
             $this->realSubject = new Singer('我是经纪人');
